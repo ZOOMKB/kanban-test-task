@@ -1,0 +1,20 @@
+.loadIssues {
+    &__form {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        justify-content: space-between;
+    }
+    &__info {
+        a {
+            margin-top: 10px;
+            text-decoration: underline;
+        }
+    }
+    .btn {
+        width: 100px;
+    }
+    .form-control {
+        width: 1300px;
+    }
+}
